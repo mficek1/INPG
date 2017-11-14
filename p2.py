@@ -31,12 +31,16 @@ def zapisz(slownik):
         pliktxt.write(linia)  # zapisujemy w pliku kolejne linie
         # można też tak:
         # print(linia, file=pliktxt)
-    pliktxt.close()  # zamykamy plik
+    pliktxt.close()  # zamykamy plik EDIT EDIT
 
 
 def oczysc(str):
     str = str.strip()  # usuń początkowe lub końcowe białe znaki
+<<<<<<< HEAD
     str = str.lower()  # zmień na małe litery3123123
+=======
+    str = str.lower()  # zmień na małe litery
+>>>>>>> remotes/origin/inpg
     return str
 
 

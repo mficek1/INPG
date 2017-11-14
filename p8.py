@@ -18,7 +18,11 @@ def otworz(plik):
                 znaczenia = znaczenia.split(",")  # tworzymy listę znaczeń
                 # dodajemy do słownika wyrazy obce i ich znaczenia
                 slownik[wobcy] = znaczenia
+<<<<<<< HEAD
     return len(slownik)  # zwracamy ilość elementów w słowniku312312312
+=======
+    return len(slownik)  # zwracamy ilość elementów w słowniku
+>>>>>>> remotes/origin/inpg
 
 
 def zapisz(slownik):
@@ -37,7 +41,11 @@ def zapisz(slownik):
 
 def oczysc(str):
     str = str.strip()  # usuń początkowe lub końcowe białe znaki
+<<<<<<< HEAD
     str = str.lower()  # zmień na małe litery
+=======
+    str = str.lower()  # zmień na małe litery3124124124
+>>>>>>> remotes/origin/inpg
     return str
 
 

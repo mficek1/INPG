@@ -2,7 +2,11 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+<<<<<<< HEAD
 import os  # moduł udostępniający funkcję isfile()
+=======
+import os  # moduł udostępniający funkcję isfile() EDIT EDIT
+>>>>>>> remotes/origin/inpg
 
 slownik = {}  # pusty słownik
 sPlik = "slownik.txt"  # nazwa pliku zawierającego wyrazy i ich tłumaczenia

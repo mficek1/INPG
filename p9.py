@@ -36,7 +36,11 @@ def zapisz(slownik):
 
 def oczysc(str):
     str = str.strip()  # usuń początkowe lub końcowe białe znaki
+<<<<<<< HEAD
     str = str.lower()  # zmień na małe lite31231231ry
+=======
+    str = str.lower()  # zmień na małe litery312312312
+>>>>>>> remotes/origin/inpg
     return str
 
 

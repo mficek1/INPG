@@ -30,8 +30,13 @@ def zapisz(slownik):
         # print(linia, file=pliktxt)
     pliktxt.close()  # zamykamy plik
 def oczysc(str):
+<<<<<<< HEAD
     str = str.strip()  # usuń początkowe lub końcowe bi312312312ałe znaki
     str = str.lower()  # zmień na małe litery
+=======
+    str = str.strip()  # usuń początkowe lub końcowe białe znaki
+    str = str.lower()  # zmień na małe litery5233333333356
+>>>>>>> remotes/origin/inpg
     return str
 def main(args):
     print("""Podaj dane w formacie:

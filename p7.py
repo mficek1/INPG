@@ -29,7 +29,11 @@ def zapisz(slownik):
         pliktxt.write(linia)  # zapisujemy w pliku kolejne linie
         # można też tak:
         # print(linia, file=pliktxt)
+<<<<<<< HEAD
     pliktxt.close()  # zamykamy plicomk
+=======
+    pliktxt.close()  # zamykamy plik4124124124
+>>>>>>> remotes/origin/inpg
 
 def oczysc(str):
     str = str.strip() 
