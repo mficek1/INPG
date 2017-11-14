@@ -3,11 +3,8 @@
 # -*- coding: utf-8 -*-
 
 import os  # modu³ udostêpniaj¹cy funkcjê isfile()
-
 slownik = {}  # pusty s³ownik
 sPlik = "slownik.txt"  # nazwa pliku zawieraj¹cego wyrazy i ich t³umaczenia
-
-
 def otworz(plik):
     if os.path.isfile(sPlik):  # czy istnieje plik s³ownika?
         with open(sPlik, "r") as pliktxt:  # otwórz plik do odczytu
