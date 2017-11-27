@@ -1,11 +1,6 @@
 123
-<<<<<<< .mine
-456789
-
-=======
-
+4567
 789
->>>>>>> .theirs
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
